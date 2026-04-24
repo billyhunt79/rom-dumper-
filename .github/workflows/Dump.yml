@@ -117,8 +117,8 @@ jobs:
           echo "::endgroup::"
           
           echo "::group::Installing Python dependencies"
-          pip3 install --upgrade pip
-          pip3 install \
+          pip install --upgrade pip
+          pip install \
             protobuf \
             pycryptodome \
             python-lz4 \
