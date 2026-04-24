@@ -141,7 +141,7 @@ jobs:
           chmod +x imjtool.tgz
           
           # payload_dumper for payload.bin
-          pip3 install payload-dumper-go 2>/dev/null || pip3 install payload_dumper
+          pip install payload-dumper -go 2>/dev/null || pip install payload_dumper
           
           # lpunpack for super partition (alternative)
           wget -q https://github.com/unix3dgforce/lpunpack/raw/main/lpunpack -O lpunpack || echo "lpunpack download optional"
