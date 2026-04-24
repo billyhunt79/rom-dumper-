@@ -121,7 +121,7 @@ jobs:
           pip install \
             protobuf \
             pycryptodome \
-            python-lz4 \
+            lz4 \
             bsdiff4 \
             construct
           echo "::endgroup::"
