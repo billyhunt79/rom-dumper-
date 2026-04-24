@@ -138,7 +138,7 @@ jobs:
           # imjtool for super partition
           wget -q http://newandroidbook.com/tools/imjtool.tgz
           tar xzf imjtool.tgz
-          chmod +x imjtool.ELF64
+          chmod +x imjtool.tgz
           
           # payload_dumper for payload.bin
           pip3 install payload-dumper-go 2>/dev/null || pip3 install payload_dumper
